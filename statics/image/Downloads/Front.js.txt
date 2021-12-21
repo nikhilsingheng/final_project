@@ -1,0 +1,7 @@
+import React from "react";
+function Front(){
+    <div>
+DIGIKULL STUDENT
+    </div>
+}
+export default Front;

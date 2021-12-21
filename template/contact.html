@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- <link rel="stylesheet" href="/css/style.css" />  -->
+    <link rel="stylesheet" href={%  static "css/contact.css" %}/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+
+<body style=" background: url({% static 'image/aa.jpg' %}) no-repeat; background-size: cover;">
+    <!-- <nav>
+        <div class="top">
+            <div class="container flex justify-between">
+                <div class="contact flex items-center">
+                    <img src="/icons/phone.svg" alt=''>
+                    <div>
+                        <h5>Call Us:(+91) 123 456 789</h5>
+                        <h6>E-mail : support@freshmeal.com</h6>
+                    </div>
+
+
+                </div>
+
+                <div class="logo">
+                    <img src="/icons/logo.svg" alt="">
+                </div>
+                <div class="time  flex items-center">
+
+                    <img src="/icons/clock.svg" alt=''>
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - sat (8.00 - 12.00am)</h6>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="navbar magic-shadow">
+                <div class="container flex justify-center">
+                    <a href="home.html">Home</a>
+                    <a href="About.html">About us </a>
+                    <a href="#">Services</a>
+                    <a href="contact.html" class='active'>Contact us</a>
+                </div>
+            </div>
+    </nav> -->
+    </div>
+    <div class='contact-info'>
+        <div><i class="fas fa-envelope"></i>freshmeal@email.com</div>
+        <div><i class="fas fa-phone"></i>+91 123456789</div>
+        <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+    </div>
+    <form action="nimit/"method="post">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+            <textarea id="Subject" placeholder="write something..." style=height:200px></textarea>
+
+            <a><button type="submit" name="submit" class="send-btn" >Send</button></a>
+        </form>
+    </div>
+    </div>
+</form>
+
+
+</body>
+
+</html>

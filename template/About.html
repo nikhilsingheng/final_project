@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href={% static 'css/style.css'%} />
+    <link rel="stylesheet" href={% static "css/about.css" %} />
+</head>
+
+<body>
+    <nav>
+        <div class="top">
+            <div class="container flex justify-between">
+                <div class="contact flex items-center">
+                    <img src={% static "icons/phone.svg" %} alt=''>
+                    <div>
+                        <h5>Call Us:(+91) 123 456 789</h5>
+                        <h6>E-mail : support@freshmeal.com</h6>
+                    </div>
+
+
+                </div>
+
+                <div class="logo">
+                    <img src={% static "icons/logo.svg" %} alt="">
+                </div>
+                <div class="time  flex items-center">
+
+                    <img src={% static "icons/clock.svg" %} alt=''>
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - sat (8.00 - 12.00am)</h6>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="navbar magic-shadow">
+                <div class="container flex justify-center">
+                    <a href="http://127.0.0.1:8000/Home/">Home</a>
+                    <a href="About.html" class='active'>About us </a>
+                  <a href="http://127.0.0.1:8000/fresh/service/">Services</a>
+                  <a href=http://127.0.0.1:8000/fresh/contact/>Contact us</a>
+                </div>
+            </div>
+            </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="hr">
+                <hr>
+                <h2>Our Mission</h2>
+                <hr>
+            </div>
+
+            <p class="mission-txt">"To Provide Quality Food at Low Cost"</p>
+
+        </div>
+
+        <div class="wrapper">
+            <h2>About Us</h2>
+            <div>
+                <img class=divImage
+                    src="https://vidyasheela.com/web-contents/website-components/About-Us-Pages/responsive-about-us-page-html/teaching.png"
+                    alt="img">
+                <p>At Fresh meal, we build products & solutions that redefine the food ordering & delivery space in
+                    India, every single day. The best part?
+                    Every bit of your work at Fresh meal will help us change the way India eats! </p>
+                <Span>
+                    <h4>Whats the story of Fresh meal ?</h4>
+                </Span>
+                <p>With love and support from consumers, Fresh meal expanded far and wide, first through the entire city
+                    of Bengaluru and then across the entire country. Today, Fresh meal is the leading food ordering and
+                    delivery platform in India. </p>
+
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <h2>Chefs</h2>
+            <div class="faculties">
+                <div class="unit">
+                    <img src={% static "image/Harpal_singh.jpg" %} alt="">
+                    <p>Harpal Singh,Main chef</p>
+                    <p>Harpal Singh Sokhi grew up in Kharagpur, West Bengal, where his father worked with the Indian
+                        Railways. He has two older sisters and one brother. He studied at the South Eastern Railway
+                        Mixed Higher Secondary School. </p>
+
+                </div>
+                <div class="unit">
+                    <img src={% static "image/sanjev_kapoor.jpg" %} alt="">
+                    <p>Sanjeev Kapoor,CEO</p>
+                    <p>Sanjeev Kapoor born 10 April 1964 is a famous Indian celebrity chef, entrepreneur and television
+                        personality. Kapoor hosted the popular TV show Khana</p>
+
+                </div>
+                <div class="unit">
+                    <img src={% static "image/vikas_khanna.jfif" %} alt="">
+                    <p>Vikas Khanna,Founder</p>
+                    <p>Vikas Khanna is an Indian chef, restaurateur, cookbook writer, filmmaker and humanitarian. He is
+                        one of the judges of Star Plus series MasterChef India</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+                        <div class="container">
+                
+                            <div class="box">
+                                <h3>Quik Links</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Restaurant</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact us</a>
+                                    </li>
+                    
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h3>Follow Us</h3>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/codersgyan">
+                                                <img src={% static "icons/facebook.svg" %} alt="">
+                                                <span>Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/CoderGyan">
+                                                <img src={% static "icons/twitter.svg" %} alt="">
+                                                <span>Twitter</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src={% static "icons/google.svg" %} alt="">
+                                                <span>Google +</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/codersgyan/">
+                                                <img src={% static "icons/instagram.svg" %} alt="">
+                                                <span>Instagram</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </footer> -->
+                    <footer class="copyright">
+                        <div>
+                            Copyright © 2021 .All rights reserved by <a href="https://www.instagram.com/codersgyan/">Fresh Meal</a>.
+                        </div>
+                    </footer>
+</body>
+
+</html>

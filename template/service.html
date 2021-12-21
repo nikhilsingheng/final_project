@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href={% static "css/service.css" %} type="text/css"/>
+    <link rel="stylesheet" href={% static "css/style.css" %} />
+     
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    rel="stylesheet">
+</head>
+<body style="background: url({% static 'image/za.jpg' %}) no-repeat;background-size: cover;">
+    
+    <div class="container">
+    <a  href="http://127.0.0.1:8000/Home/"><button>BacktoHome</button></a>
+
+        <div class="services">
+            <h1>Our Services</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                   
+                    <i class="fas fa-bicycle"></i>
+
+
+                </div>
+                <h3>Home Delivery</h3>
+                <p>Get Food At Your Doorstep</p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                   
+                    <i class="fas fa-bicycle"></i>
+
+
+                </div>
+                <h3>Contactless Delivery</h3>
+                <p>We Privide Contactless Delivery If Yoy Like</p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                   
+                    <i class="fas fa-bicycle"></i>
+
+
+                </div>
+                <h3>Quality</h3>
+                <p>We Work With Best Suppliers To Make Sure You Get To Quality</p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                   
+                    <i class="fas fa-bicycle"></i>
+
+
+                </div>
+                <h3>Techniques</h3>
+                <p>Our Team Uses the Letest TechniquesTo Prapare Food</p>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>

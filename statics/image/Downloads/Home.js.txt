@@ -1,0 +1,24 @@
+import React from 'react';
+
+import Front from './Front'
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+
+function Home(){
+return (
+    <Container>
+     <Grid item xs={12}>
+         <Front/>
+        </Grid>
+        <Grid item x5={6}>
+            <View/>
+        </Grid>
+        <Button variant="contained">Default</Button>
+<Button variant="contained" color="primary">
+  Add
+</Button>
+  </Container>
+)
+
+}
+export default Home

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href={% static  "css/style.css" %}/>
+    <link rel="stylesheet" href={% static "css/login.css" %} />
+</head>
+<body style=" background: url({% static 'image/aa.jpg' %})no-repeat;  background-size: cover;">
+    <nav>
+        <div class="top">
+            <div class="container flex justify-between">
+                <div class="contact flex items-center">
+                    <img src={% static "icons/phone.svg"%} alt=''>
+                    <div>
+                        <h5>Call Us:(+91) 123 456 789</h5>
+                        <h6>E-mail : support@freshmeal.com</h6>
+                    </div>
+
+
+                </div>
+
+                <div class="logo">
+                    <img src={% static "icons/logo.svg" %} alt="">
+                </div>
+                <div class="time  flex items-center">
+
+                    <img src={% static "icons/clock.svg" %} alt=''>
+                    <div>
+                        <h5>Working Hours:</h5>
+                        <h6>Mon - sat (8.00 - 12.00am)</h6>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="navbar magic-shadow">
+                <div class="container flex justify-center">
+                    <a href=http://127.0.0.1:8000/Home/>Home</a>
+                    <a href=http://127.0.0.1:8000/fresh/about/ >About us </a>
+                    <!-- <a href="#">Restaurant</a> -->
+                    <a href=http://127.0.0.1:8000/fresh/service/>Services</a>
+                    <!-- <a href="#">Gallery</a> -->
+                    <a href=http://127.0.0.1:8000/fresh/contact/>Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <form action="login/" method="post">
+    <div class="Login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Username" name="email"value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password" placeholder="Password" name="Password"value="">
+    </div >
+        <button class="btn" type=" "name=""value="Sign in">login</button>
+    </div>
+    </form>
+</body>
+</html>
